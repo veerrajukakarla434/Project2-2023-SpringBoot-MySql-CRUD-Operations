@@ -24,7 +24,6 @@ public class EmployeeController {
 
     @Autowired
 	IEmployeeService employeeService; 
-    
 	
     @Operation(summary = "Save Employee", description = "Save Employee into DataBases")
 	@PostMapping(value = "/employee")
